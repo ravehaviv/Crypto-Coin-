@@ -1,0 +1,361 @@
+.displaycoins{
+    display:grid;
+    grid-template-columns: repeat(6,1fr) ;
+    margin: 20px;
+    gap: 5px;
+}
+.card{
+    padding: 5px;
+    max-width: 250px;
+    max-height: 400px;
+    opacity: 0.9;
+    background-color: #ebdd98;
+    box-sizing: border-box;
+}
+
+.card-title{
+    display: block;
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+}
+.card-subtitle{
+    display: block;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.switch{
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+}
+.btn-card-cry{
+    display: block;
+    position: absolute;
+    top: 135px;
+    right: 90px;
+    background-color: #ffd700;
+    border-color: #ffd700;
+    font-weight: bold;
+}
+
+.btn-card-cry:hover{
+    background-color: rgb(199, 193, 193);
+    font-weight: bold;
+    color: #ffd700;
+    border-color: #ffd700;
+}
+.btn-card-cry:checked{
+    background-color:rgb(199, 193, 193);
+    font-weight: bold;
+    color: #ffd700;
+    border-color: #ffd700;
+}
+
+.ul-cry{
+    list-style-type: none;
+    font-weight: bold;
+    position: relative;
+    top: 17px;
+    right: 15px;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .container-fluid > img{
+        height: 40px;
+        width: 40px;
+    }
+    .displaycoins{
+        position: relative;
+        display:grid;
+        left: 35px;
+        width: 250px;
+        grid-template-columns:repeat(1,1fr) ;
+        margin: 20px;
+        gap: 5px;
+    }
+    .card{
+        padding: 5px;
+        max-width: 250px;
+        max-height: 400px;
+        opacity: 0.9;
+        background-color: #ebdd98;
+        box-sizing: border-box;
+    }
+    
+    .card-title{
+        display: block;
+        position: relative;
+        bottom: 5px;
+        width: 100%;
+    }
+    .card-subtitle{
+        display: block;
+        width: 200px;
+        height: 20px;
+        overflow: hidden;
+    }
+    
+    .switch{
+        position: relative;
+        left: 150px;
+        bottom: 30px;
+    }
+    .btn-card-cry{
+        display: block;
+        position: absolute;
+        top: 135px;
+        right: 90px;
+        background-color: #ffd700;
+        border-color: #ffd700;
+        font-weight: bold;
+    }
+    
+    .btn-card-cry:hover{
+        background-color: rgb(199, 193, 193);
+        font-weight: bold;
+        color: #ffd700;
+        border-color: #ffd700;
+    }
+    .btn-card-cry:checked{
+        background-color:rgb(199, 193, 193);
+        font-weight: bold;
+        color: #ffd700;
+        border-color: #ffd700;
+    }
+    
+    .ul-cry{
+        list-style-type: none;
+        font-weight: bold;
+        position: relative;
+        top: 17px;
+        right: 15px;
+    }
+    .cry-search{
+        width: 200px;
+        height: 50px;
+        left: 0px;
+    }
+    .error-cry{
+        width: 150px;
+        left: 10px;
+    }
+}
+
+@media only screen and ( min-width:421px)and (max-width: 600px) {
+    .container-fluid > img{
+        height: 40px;
+        width: 40px;
+    }
+    .displaycoins{
+        display:grid;      
+        width: 400px;
+        grid-template-columns:repeat(2,1fr) ;
+        margin: auto;
+        margin-top: 5px;
+        
+        
+    }
+    .card{
+        padding: 5px;
+        max-width: 250px;
+        max-height: 400px;
+        opacity: 0.9;
+        background-color: #ebdd98;
+        box-sizing: content-box;
+    }
+
+    .btn-card-cry{
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        top: 80px;
+        left: 10px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .cry-search{
+        width: 200px;
+        height: 50px;
+        left: 0px;
+    }
+    .error-cry{
+        width: 150px;
+        left: 10px;
+    }
+    
+    
+
+}
+
+@media only screen and ( min-width:601px)and (max-width: 800px) {
+    .container-fluid > img{
+        height: 40px;
+        width: 40px;
+    }
+    .displaycoins{
+        display:grid;      
+        width: 550px;
+        grid-template-columns:repeat(3,1fr) ;
+        margin: auto;
+        margin-top: 5px;
+        
+        
+    }
+    .card{
+        padding: 5px;
+        max-width: 250px;
+        max-height: 400px;
+        opacity: 0.9;
+        background-color: #ebdd98;
+        box-sizing: content-box;
+    }
+
+    .btn-card-cry{
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        top: 80px;
+        left: 10px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .cry-search{
+        width: 200px;
+        height: 50px;
+        left: 0px;
+    }
+    .error-cry{
+        width: 150px;
+        left: 10px;
+    }
+    
+    
+
+}
+
+@media only screen and ( min-width:801px)and (max-width: 1000px) {
+    .container-fluid > img{
+        height: 40px;
+        width: 40px;
+    }
+    .displaycoins{
+        display:grid;      
+        width: 720px;
+        grid-template-columns:repeat(4,1fr) ;
+        margin: auto;
+        margin-top: 5px;
+        
+        
+    }
+    .card{
+        padding: 5px;
+        max-width: 250px;
+        max-height: 400px;
+        opacity: 0.9;
+        background-color: #ebdd98;
+        box-sizing: content-box;
+    }
+
+    .btn-card-cry{
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        top: 80px;
+        left: 10px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .cry-search{
+        width: 200px;
+        height: 50px;
+        left: 0px;
+    }
+    .error-cry{
+        width: 150px;
+        left: 10px;
+    }
+
+    .ul-cry{
+        list-style-type: none;
+        font-weight: bold;
+        position: relative;
+        top: 17px;
+        right: 15px;
+    }
+
+    .ul-cry > li{
+        position: relative;
+        right: 10px;
+        width: 160px;
+    }
+
+}
+
+@media only screen and ( min-width:1001px)and (max-width: 1200px) {
+    .container-fluid > img{
+        height: 40px;
+        width: 40px;
+    }
+    .displaycoins{
+        display:grid;      
+        width: 950px;
+        grid-template-columns:repeat(5,1fr) ;
+        margin: auto;
+        margin-top: 5px;
+        
+        
+    }
+    .card{
+        padding: 5px;
+        max-width: 250px;
+        max-height: 400px;
+        opacity: 0.9;
+        background-color: #ebdd98;
+        box-sizing: content-box;
+    }
+
+    .btn-card-cry{
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        top: 80px;
+        left: 10px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .cry-search{
+        width: 250px;
+        height: 50px;
+        right: 60px;
+    }
+    .error-cry{
+        position: relative;
+        width: 250px;
+        top: 15px;
+
+    }
+
+    .ul-cry{
+        list-style-type: none;
+        font-weight: bold;
+        position: relative;
+        top: 17px;
+        right: 15px;
+    }
+
+    .ul-cry > li{
+        position: relative;
+        right: 10px;
+        width: 160px;
+    }
+
+}

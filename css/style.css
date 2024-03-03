@@ -1,0 +1,106 @@
+
+.img-pa{
+    height: 200px;
+    background-image: url("./asseat/Images/background-image.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid > img{
+    height: 3%;
+    width: 3%;
+}
+
+
+.navbar{
+    opacity: 0.8;
+    font-weight: bold;
+}
+.btn-search{
+    background-color: #ffd700;
+    border-color: #ffd700;
+    color: white;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.btn-search:hover{
+    font-weight: bolder;
+    background-color: white;
+    border-color: #ffd700;
+    color: #ffd700;
+}
+
+.cry-search{
+    position: relative;
+    right: 45px;
+   
+}
+.error-cry{
+    position: relative;
+    right: 15px;
+    top: 5px;
+    width: 450px;
+    color: red;
+    font-weight: bolder;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.cry-page{
+    display: none;
+}
+
+.cry-page.active{
+    display: block;
+  
+}
+
+.nav-link.active{
+  font-weight: bolder;
+  
+}
+
+#about.active{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#about > div:nth-of-type(1) {
+    display: flex;
+   background: lightgray;
+   height: 250px;
+   width: 500px;
+   overflow: auto;
+
+}
+
+#about > div:nth-of-type(1)>ul{
+    list-style: none;
+}
+
+
+#about  img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+#about > div:nth-of-type(1)::-webkit-scrollbar {
+   width: 10px;
+   border-radius: 10px;
+   box-shadow: inset -2px 0 0 10px rgb(63, 82, 100);
+}
+#about > div:nth-of-type(1)::-webkit-scrollbar-thumb {
+   
+    background: rgba(5, 167, 231, 0.737);
+    border-radius: 10px;
+  
+   
+}
+
+
